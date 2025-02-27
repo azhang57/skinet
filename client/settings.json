@@ -2,11 +2,9 @@
     "tailwindCSS.includeLanguages": {
     "html": "html",
     "javascript": "javascript",
-    "scss": "scss",
     "css": "css"
     },
     "editor.quickSuggestions": {
         "strings": true
-    },
-    "scss.lint.unknownAtRules": "ignore"
+    }
 }
