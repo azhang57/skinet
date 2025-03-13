@@ -21,10 +21,10 @@ jobs:
       - name: setup node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '22'
+          node-version: '20'
 
       - name: Install angular CLI 
-        run: npm install -g @angular/cli@19
+        run: npm install -g @angular/cli@18
 
       - name: Install deps and build angular app
         run: | 
